@@ -25,39 +25,57 @@ CSS STRUCTURE:
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
-  --heading-color: #111;
-  --heading-line-height: 1.24;
+  --heading-color: #0d0d0d; /* Deep black for headings */
+  --heading-line-height: 1.3;
 
-  --swiper-theme-color: #8C907E;
+  --swiper-theme-color: #1a1a1a; /* Subtle black accent for sliders */
 
   /* bootstrap */
   --bs-body-font-family: "Jost", Roboto, sans-serif;
   --bs-body-font-size: 18px;
   --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #8f8f8f;
-  --bs-body-color-rgb: 143, 143, 143;
+  --bs-body-line-height: 1.6;
+  --bs-body-color: #4d4d4d; /* Neutral gray for body text */
+  --bs-body-color-rgb: 77, 77, 77;
 
-  --bs-primary: #8C907E;
-  --bs-secondary: #6c757d;
-  --bs-black: #111;
-  --bs-light: #F1F1F0;
-  --bs-dark: #212529;
-  --bs-gray: #9aa1a7;
-  --bs-gray-dark: #51565b;
+  --bs-primary: #1a1a1a; /* Black for primary accents */
+  --bs-secondary: #4d4d4d; /* Gray for secondary accents */
+  --bs-black: #0d0d0d; /* Blackest black for bold elements */
+  --bs-light: #e6e6e6; /* Light gray for backgrounds */
+  --bs-dark: #262626; /* Dark gray for contrast */
+  --bs-gray: #4d4d4d; /* Default gray for text and muted elements */
+  --bs-gray-dark: #333333; /* Darker gray for emphasis */
 
-  --bs-primary-rgb: 140, 144, 126;
-  --bs-secondary-rgb: 108, 117, 125;
-  --bs-black-rgb: 17, 17, 17;
-  --bs-light-rgb: 241, 241, 240;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-primary-rgb: 26, 26, 26;
+  --bs-secondary-rgb: 77, 77, 77;
+  --bs-black-rgb: 13, 13, 13;
+  --bs-light-rgb: 230, 230, 230;
+  --bs-dark-rgb: 38, 38, 38;
 
-  --bs-link-color: #111;
-  --bs-link-color-rgb: 17, 17, 17;
+  --bs-link-color: #0d0d0d; /* Black for links */
+  --bs-link-color-rgb: 13, 13, 13;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #111;
-  --bs-link-hover-color-rgb: 17, 17, 17;
+  --bs-link-hover-color: #333333; /* Subtle dark gray for hover links */
+  --bs-link-hover-color-rgb: 51, 51, 51;
+
+  /* Additional Custom Properties for AI Theme */
+  --ai-primary-bg: #0d0d0d; /* Black background for key sections */
+  --ai-secondary-bg: #e6e6e6; /* Light gray for contrast sections */
+  --ai-border-color: #4d4d4d; /* Gray borders for cards and separators */
+  --ai-accent-color: #ffffff; /* White accents for call-to-action elements */
+
+  /* Button Customization */
+  --btn-primary-bg: #0d0d0d;
+  --btn-primary-color: #ffffff;
+  --btn-primary-hover-bg: #333333;
+  --btn-primary-hover-color: #ffffff;
+
+  --btn-secondary-bg: #4d4d4d;
+  --btn-secondary-color: #ffffff;
+  --btn-secondary-hover-bg: #262626;
+  --btn-secondary-hover-color: #ffffff;
 }
+
 
 body {
   letter-spacing: 0.03rem;
