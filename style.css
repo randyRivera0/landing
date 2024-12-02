@@ -1558,3 +1558,9 @@ a.btn-link.text-light:after {
   background-size: cover;
   transition: transform .3s ease-out;
 }
+
+ body::before {
+  display: block;
+  content:  '';
+  height: 60px;
+ }
